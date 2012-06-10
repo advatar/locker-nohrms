@@ -1,0 +1,28 @@
+{
+  "author": "Advatar <johan@sellstrom.me>",
+  "name": "nohrms",
+  "description": "noHRMS Connector",
+  "version": "0.0.1",
+  "repository": {
+    "title": "noHRMS",
+    "handle": "nohrms",
+    "author": "advatar",
+    "update": "auto",
+    "github": "https://github.com/sxux/Locker/tree/master/Connectors/noHRMS",
+    "type": "connector",
+    "static": "false",
+    "oauthSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "profileIds": [
+      "login"
+    ],
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.4.9"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

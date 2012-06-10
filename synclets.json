@@ -1,0 +1,11 @@
+{
+    "synclets": [
+        {
+            "frequency": 3600,
+            "name": "profile"
+        }
+    ],
+    "provides": [
+        "contact/nohrms"
+    ]
+}
