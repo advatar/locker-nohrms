@@ -1,1 +1,21 @@
-{"author":"Advatar <johan@sellstrom.me>","name":"advatar-nohrms","description":"noHRMS Connector","version":"0.0.1","repository":{"title":"noHRMS","handle":"advatar-nohrms","author":"advatar","update":"auto","github":"https://github.com/advatar/nohrms","type":"connector","static":"false","oauthSize":{"width":1000,"height":1000},"profileIds":["login"],"url":"https://github.com/advatar/nohrms"},"engines":{"node":">=0.4.9"},"dependencies":{},"devDependencies":{}}
+{
+  "author":"Advatar <johan@sellstrom.me>",
+  "name":"advatar-nohrms",
+  "description":"noHRMS Connector",
+  "version":"0.0.1",
+  "repository": {
+    "title":"noHRMS",
+    "handle":"advatar-nohrms",
+    "author":"advatar",
+    "update":"auto",
+    "github":"https://github.com/advatar/nohrms",
+    "type":"connector",
+    "static":"false",
+    "oauthSize":{"width":1000,"height":1000},
+    "profileIds":["login"],
+    "url":"https://github.com/advatar/nohrms"
+   },
+   "engines":{"node":">=0.4.9"},
+   "dependencies":{},
+   "devDependencies":{}
+}
