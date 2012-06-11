@@ -5,15 +5,15 @@
   "version":"0.0.1",
   "repository": {
     "title":"noHRMS",
-    "handle":"advatar-nohrms",
+    "handle":"advatar-locker-nohrms",
     "author":"advatar",
     "update":"auto",
-    "github":"https://github.com/advatar/nohrms",
+    "github":"https://github.com/advatar/locker-nohrms",
     "type":"connector",
     "static":"false",
     "oauthSize":{"width":1000,"height":1000},
     "profileIds":["login"],
-    "url":"https://github.com/advatar/nohrms"
+    "url":"https://github.com/advatar/locker-nohrms"
    },
    "engines":{"node":">=0.4.9"},
    "dependencies":{},
