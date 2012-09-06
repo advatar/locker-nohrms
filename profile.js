@@ -1,9 +1,6 @@
-var request = require('request');
-
-exports.sync = function(pi, cb) {
-    request.get({url:"https://api.github.com/user?access_token=" + pi.auth.accessToken, json:true}, function(err, resp, body) {
-        if(err || !body) return cb(err);
-        pi.auth.profile = body;
-        cb(null, {auth: pi.auth, data: {profile: [body]}});
-    });
-};
+exports.sync = require('./lib').genericSync('profile', function(pi){
+    return "people/~:(id,first-name,last-name,headline,location:(name,country:(code)),industry,current-share,connections,num-connections,summary,specialties,proposal-comments,associations,honors,interests,positions,publications,patents,languages,skills,certifications,educations,num-recommenders,recommendations-received,phone-numbers,im-accounts,twitter-accounts,date-of-birth,main-address,member-url-resources,picture-url,site-standard-profile-request:(url),api-standard-profile-request:(url),site-public-profile-request:(url),api-public-profile-request:(url),public-profile-url)?format=json";
+},function(pi, js){
+    pi.auth.profile = js; // stash
+    return [js];
+});

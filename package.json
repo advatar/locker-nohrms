@@ -5,7 +5,7 @@
   "version":"0.0.1",
   "repository": {
     "title":"noHRMS",
-    "handle":"advatar-locker-nohrms",
+    "handle":"locker-nohrms",
     "author":"advatar",
     "update":"auto",
     "github":"https://github.com/advatar/locker-nohrms",
